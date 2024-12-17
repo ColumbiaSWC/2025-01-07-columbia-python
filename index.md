@@ -468,3 +468,19 @@ Please check the "Setup" page of
 <a href="{{site.incubator_lesson_site}}">the lesson homepage</a> for instructions to follow
 to obtain the software and data you will need to follow the lesson.
 {% endif %}
+{% if site.curriculum == "swc-gapminder" %}
+<div id="data">
+<h3>Data Used in the Lessons</h3>
+Make sure to download the required data for the Shell and Python lessons:
+
+<ul>
+<li><a href="https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip">shell-lesson-data.zip</a></li>
+
+<li><a href="https://swcarpentry.github.io/python-novice-gapminder/files/python-novice-gapminder-data.zip">python-novice-gapminder-data.zip</a></li>
+</ul>
+{% endif %}
+
+{% comment %}
+I'm not sure what the correct zip file to download for the R class is...
+{% endcomment %}
+</div>
